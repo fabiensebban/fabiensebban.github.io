@@ -1,0 +1,33 @@
+   .tip-layout {
+		width: 400px; /*set to whatever*/
+		display: block; /* needed */
+		border-color: #303030;
+		color: #f3f3f3;
+	}
+	
+	.tip-layout div {
+		display: inline; /* needed */
+		float: left; /* needed */
+		border-color: #303030;
+	}
+	
+	div.tip-desc {
+		background-color: #505050;
+		width: 50%; /* needed, can be changed depending on padding of inner elements */
+	}
+	
+	div.tip-portfolio {
+		padding: 8px;
+
+	}
+
+.ui-tooltip, .qtip{
+	max-width: 320px;
+}
+
+.tip-small {
+	display: inline-block;
+	font-size: 10px;
+	line-height: 1.1;
+	width: 200px;
+}
